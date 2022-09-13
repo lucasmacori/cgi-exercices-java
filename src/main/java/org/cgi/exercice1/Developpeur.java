@@ -1,5 +1,7 @@
 package org.cgi.exercice1;
 
+import java.time.Period;
+import java.time.ZoneId;
 import java.util.ArrayList;
 import java.util.Date;
 
@@ -40,8 +42,10 @@ public class Developpeur extends Personne {
      * @return L'age du développeur
      */
     public int getAge() {
-        // TODO : Implémenter la méthode une fois les tests unitaires dévelopés et exécutés
-        throw new UnsupportedOperationException();
+        return Period.between(
+                this.dateNaissance.toInstant().atZone(ZoneId.systemDefault()).toLocalDate(),
+                new Date().toInstant().atZone(ZoneId.systemDefault()).toLocalDate()
+        ).getYears();
     }
 
     /**
@@ -49,7 +53,6 @@ public class Developpeur extends Personne {
      * @param newSkills les nouveaux skills à ajouter au développeur
      */
     public void addSkills(ArrayList<Skills> newSkills) {
-        // TODO : Implémenter la méthode une fois les tests unitaires dévelopés et exécutés
-        throw new UnsupportedOperationException();
+        this.skills.addAll(newSkills);
     }
 }

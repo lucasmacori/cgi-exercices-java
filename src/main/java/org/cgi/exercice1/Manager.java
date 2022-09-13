@@ -28,7 +28,6 @@ public class Manager extends Personne {
      * @param membre le nouveau membre à ajouter au manager
      */
     public void addMembre(Developpeur membre) {
-        // TODO : Implémenter la méthode une fois les tests unitaires dévelopés et exécutés
-        throw new UnsupportedOperationException();
+        this.membres.add(membre);
     }
 }

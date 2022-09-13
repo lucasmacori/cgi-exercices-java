@@ -11,24 +11,24 @@ public class Personne {
      * Sexe de la personne
      * Peut-être un homme ou une femme
      */
-    private enum sexe { M, F }
+    protected enum sexe { M, F }
 
     /**
      * Nom de la personne
      */
-    private String nom;
+    protected String nom;
     /**
      * Prénom de la personne
      */
-    private String prenom;
+    protected String prenom;
     /**
      * Date de naissance de la personne
      */
-    private Date dateNaissance;
+    protected Date dateNaissance;
     /**
      * Taille de la personne
      */
-    private int taille;
+    protected int taille;
 
     public Personne(String nom, String prenom, Date dateNaissance, int taille) {
         this.nom = nom;

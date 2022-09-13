@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1eb6ae3-d67b-4c95-91b3-ae0ab49f8d6d" name="Changes" comment="(feature) Classes de base de l'exercice 1&#10;&#10;Développement des classes Personne, Developpeur, Manager et Skills.&#10;La prochaine étape est le développement des tests unitaires afin de développer en mode TDD.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/cgi/exercice1/junit/DeveloppeurTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/cgi/exercice1/junit/ManagerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/cgi/exercice1/junit/PersonneTest.java" afterDir="false" />
+    <list default="true" id="f1eb6ae3-d67b-4c95-91b3-ae0ab49f8d6d" name="Changes" comment="(feature) Tests unitaires des classes de base">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cgi/exercice1/Developpeur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cgi/exercice1/Developpeur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cgi/exercice1/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cgi/exercice1/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cgi/exercice1/Personne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cgi/exercice1/Personne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/cgi/AppTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663095013597</updated>
-      <workItem from="1663095014747" duration="5821000" />
+      <workItem from="1663095014747" duration="6087000" />
     </task>
     <task id="LOCAL-00001" summary="(feature) Classes de base de l'exercice 1&#10;&#10;Développement des classes Personne, Developpeur, Manager et Skills.&#10;La prochaine étape est le développement des tests unitaires afin de développer en mode TDD.">
       <created>1663097402271</created>
@@ -84,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663097402271</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="(feature) Tests unitaires des classes de base">
+      <created>1663100870811</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663100870811</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +110,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="(feature) Classes de base de l'exercice 1&#10;&#10;Développement des classes Personne, Developpeur, Manager et Skills.&#10;La prochaine étape est le développement des tests unitaires afin de développer en mode TDD." />
-    <option name="LAST_COMMIT_MESSAGE" value="(feature) Classes de base de l'exercice 1&#10;&#10;Développement des classes Personne, Developpeur, Manager et Skills.&#10;La prochaine étape est le développement des tests unitaires afin de développer en mode TDD." />
+    <MESSAGE value="(feature) Tests unitaires des classes de base" />
+    <option name="LAST_COMMIT_MESSAGE" value="(feature) Tests unitaires des classes de base" />
   </component>
 </project>
