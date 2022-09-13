@@ -10,8 +10,8 @@ public class Manager extends Personne {
      */
     private ArrayList<Developpeur> membres;
 
-    public Manager(String nom, String prenom, Date dateNaissance, int taille, ArrayList<Developpeur> membres) {
-        super(nom, prenom, dateNaissance, taille);
+    public Manager(String nom, String prenom, Date dateNaissance, int taille, Sexe sexe, ArrayList<Developpeur> membres) {
+        super(nom, prenom, dateNaissance, taille, sexe);
         this.membres = membres;
     }
 

@@ -11,7 +11,7 @@ public class Personne {
      * Sexe de la personne
      * Peut-être un homme ou une femme
      */
-    protected enum sexe { M, F }
+    protected Sexe sexe;
 
     /**
      * Nom de la personne
@@ -30,11 +30,12 @@ public class Personne {
      */
     protected int taille;
 
-    public Personne(String nom, String prenom, Date dateNaissance, int taille) {
+    public Personne(String nom, String prenom, Date dateNaissance, int taille, Sexe sexe) {
         this.nom = nom;
         this.prenom = prenom;
         this.dateNaissance = dateNaissance;
         this.taille = taille;
+        this.sexe = sexe;
     }
 
     public String getNom() {
@@ -67,5 +68,13 @@ public class Personne {
 
     public void setTaille(int taille) {
         this.taille = taille;
+    }
+
+    public Sexe getSexe() {
+        return sexe;
+    }
+
+    public void setSexe(Sexe sexe) {
+        this.sexe = sexe;
     }
 }

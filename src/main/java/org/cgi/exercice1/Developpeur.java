@@ -15,8 +15,8 @@ public class Developpeur extends Personne {
      */
     private ArrayList<Skills> skills;
 
-    public Developpeur(String nom, String prenom, Date dateNaissance, int taille, Manager manager, ArrayList<Skills> skills) {
-        super(nom, prenom, dateNaissance, taille);
+    public Developpeur(String nom, String prenom, Date dateNaissance, int taille, Sexe sexe, Manager manager, ArrayList<Skills> skills) {
+        super(nom, prenom, dateNaissance, taille, sexe);
         this.manager = manager;
         this.skills = skills;
     }

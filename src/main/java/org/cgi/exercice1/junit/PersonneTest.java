@@ -4,6 +4,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.fail;
 
 import org.cgi.exercice1.Personne;
+import org.cgi.exercice1.Sexe;
 import org.junit.jupiter.api.Test;
 
 import java.text.SimpleDateFormat;
@@ -18,7 +19,8 @@ public class PersonneTest {
                     "Dupont",
                     "Jean",
                     new SimpleDateFormat("dd-MM-yyyy").parse("09-07-1975"),
-                    178
+                    178,
+                    Sexe.H
             );
 
             // Test de la fonctionnalité
@@ -36,7 +38,8 @@ public class PersonneTest {
                     "Dupont",
                     "Jean",
                     new SimpleDateFormat("dd-MM-yyyy").parse("09-07-1975"),
-                    178
+                    178,
+                    Sexe.H
             );
 
             // Test de la fonctionnalité
@@ -55,7 +58,8 @@ public class PersonneTest {
                     "Dupont",
                     "Jean",
                     new SimpleDateFormat("dd-MM-yyyy").parse("09-07-1975"),
-                    178
+                    178,
+                    Sexe.H
             );
 
             // Test de la fonctionnalité
@@ -73,7 +77,8 @@ public class PersonneTest {
                     "Dupont",
                     "Jean",
                     new SimpleDateFormat("dd-MM-yyyy").parse("09-07-1975"),
-                    178
+                    178,
+                    Sexe.H
             );
 
             // Test de la fonctionnalité
@@ -94,7 +99,8 @@ public class PersonneTest {
                     "Dupont",
                     "Jean",
                     date,
-                    178
+                    178,
+                    Sexe.H
             );
 
             // Test de la fonctionnalité
@@ -112,7 +118,8 @@ public class PersonneTest {
                     "Dupont",
                     "Jean",
                     new SimpleDateFormat("dd-MM-yyyy").parse("09-07-1975"),
-                    178
+                    178,
+                    Sexe.H
             );
 
             // Test de la fonctionnalité
@@ -132,7 +139,8 @@ public class PersonneTest {
                     "Dupont",
                     "Jean",
                     new SimpleDateFormat("dd-MM-yyyy").parse("09-07-1975"),
-                    178
+                    178,
+                    Sexe.H
             );
 
             // Test de la fonctionnalité
@@ -150,7 +158,8 @@ public class PersonneTest {
                     "Dupont",
                     "Jean",
                     new SimpleDateFormat("dd-MM-yyyy").parse("09-07-1975"),
-                    178
+                    178,
+                    Sexe.H
             );
 
             // Test de la fonctionnalité

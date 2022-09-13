@@ -2,6 +2,7 @@ package org.cgi.exercice1.junit;
 
 import org.cgi.exercice1.Developpeur;
 import org.cgi.exercice1.Manager;
+import org.cgi.exercice1.Sexe;
 import org.cgi.exercice1.Skills;
 import org.junit.jupiter.api.Test;
 
@@ -24,6 +25,7 @@ public class DeveloppeurTest {
                     "Elisabelle",
                     new SimpleDateFormat("dd-MM-yyyy").parse("17-12-1972"),
                     159,
+                    Sexe.F,
                     new ArrayList<>()
             );
 
@@ -33,6 +35,7 @@ public class DeveloppeurTest {
                     "Jean",
                     new SimpleDateFormat("dd-MM-yyyy").parse("09-07-1975"),
                     178,
+                    Sexe.H,
                     manager,
                     new ArrayList<>()
             );
@@ -53,6 +56,7 @@ public class DeveloppeurTest {
                     "Elisabelle",
                     new SimpleDateFormat("dd-MM-yyyy").parse("17-12-1972"),
                     159,
+                    Sexe.F,
                     new ArrayList<>()
             );
 
@@ -62,6 +66,7 @@ public class DeveloppeurTest {
                     "Jean",
                     new SimpleDateFormat("dd-MM-yyyy").parse("09-07-1975"),
                     178,
+                    Sexe.H,
                     manager,
                     new ArrayList<>()
             );
@@ -72,6 +77,7 @@ public class DeveloppeurTest {
                     "Honoré",
                     new SimpleDateFormat("dd-MM-yyyy").parse("17-12-1969"),
                     187,
+                    Sexe.H,
                     new ArrayList<>()
             );
 
@@ -92,6 +98,7 @@ public class DeveloppeurTest {
                     "Elisabelle",
                     new SimpleDateFormat("dd-MM-yyyy").parse("17-12-1972"),
                     159,
+                    Sexe.F,
                     new ArrayList<>()
             );
 
@@ -106,6 +113,7 @@ public class DeveloppeurTest {
                     "Jean",
                     new SimpleDateFormat("dd-MM-yyyy").parse("09-07-1975"),
                     178,
+                    Sexe.H,
                     manager,
                     skills
             );
@@ -126,6 +134,7 @@ public class DeveloppeurTest {
                     "Elisabelle",
                     new SimpleDateFormat("dd-MM-yyyy").parse("17-12-1972"),
                     159,
+                    Sexe.F,
                     new ArrayList<>()
             );
 
@@ -140,6 +149,7 @@ public class DeveloppeurTest {
                     "Jean",
                     new SimpleDateFormat("dd-MM-yyyy").parse("09-07-1975"),
                     178,
+                    Sexe.H,
                     manager,
                     skills
             );
@@ -167,6 +177,7 @@ public class DeveloppeurTest {
                     "Elisabelle",
                     new SimpleDateFormat("dd-MM-yyyy").parse("17-12-1972"),
                     159,
+                    Sexe.F,
                     new ArrayList<>()
             );
 
@@ -176,6 +187,7 @@ public class DeveloppeurTest {
                     "Jean",
                     new SimpleDateFormat("dd-MM-yyyy").parse("09-07-1975"),
                     178,
+                    Sexe.H,
                     manager,
                     new ArrayList<>()
             );
@@ -203,6 +215,7 @@ public class DeveloppeurTest {
                     "Elisabelle",
                     new SimpleDateFormat("dd-MM-yyyy").parse("17-12-1972"),
                     159,
+                    Sexe.F,
                     new ArrayList<>()
             );
 
@@ -217,6 +230,7 @@ public class DeveloppeurTest {
                     "Jean",
                     new SimpleDateFormat("dd-MM-yyyy").parse("09-07-1975"),
                     178,
+                    Sexe.H,
                     manager,
                     skills
             );
