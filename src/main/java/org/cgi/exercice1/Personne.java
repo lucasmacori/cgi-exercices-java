@@ -1,5 +1,7 @@
 package org.cgi.exercice1;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
@@ -76,5 +78,14 @@ public class Personne {
 
     public void setSexe(Sexe sexe) {
         this.sexe = sexe;
+    }
+
+    @Override
+    public String toString() {
+        DateFormat dateFormat = new SimpleDateFormat("dd/mm/yyyy");
+        return this.prenom + " " + this.nom + " : "
+                + this.sexe + " : "
+                + dateFormat.format(this.dateNaissance) + " : "
+                + this.taille + " cm";
     }
 }

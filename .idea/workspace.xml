@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1eb6ae3-d67b-4c95-91b3-ae0ab49f8d6d" name="Changes" comment="(feature) Développement des méthodes non implémentées et testées">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/cgi/exercice1/Sexe.java" afterDir="false" />
+    <list default="true" id="f1eb6ae3-d67b-4c95-91b3-ae0ab49f8d6d" name="Changes" comment="(fix) Champ Sexe dans la classe Personne">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/cgi/exercice1/Developpeur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cgi/exercice1/Developpeur.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/cgi/exercice1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cgi/exercice1/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/cgi/exercice1/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cgi/exercice1/Manager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/cgi/exercice1/Personne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cgi/exercice1/Personne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/cgi/exercice1/junit/DeveloppeurTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cgi/exercice1/junit/DeveloppeurTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/cgi/exercice1/junit/ManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cgi/exercice1/junit/ManagerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/cgi/exercice1/junit/PersonneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cgi/exercice1/junit/PersonneTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,17 +36,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="org.cgi.exercice1.junit in cgi-exercices-java" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cgi-exercices-java" />
@@ -79,7 +76,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663095013597</updated>
-      <workItem from="1663095014747" duration="6987000" />
+      <workItem from="1663095014747" duration="7674000" />
+      <workItem from="1663316996820" duration="1003000" />
     </task>
     <task id="LOCAL-00001" summary="(feature) Classes de base de l'exercice 1&#10;&#10;Développement des classes Personne, Developpeur, Manager et Skills.&#10;La prochaine étape est le développement des tests unitaires afin de développer en mode TDD.">
       <created>1663097402271</created>
@@ -102,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663101137783</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="(fix) Champ Sexe dans la classe Personne">
+      <created>1663102032771</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663102032771</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +128,7 @@
     <MESSAGE value="(feature) Classes de base de l'exercice 1&#10;&#10;Développement des classes Personne, Developpeur, Manager et Skills.&#10;La prochaine étape est le développement des tests unitaires afin de développer en mode TDD." />
     <MESSAGE value="(feature) Tests unitaires des classes de base" />
     <MESSAGE value="(feature) Développement des méthodes non implémentées et testées" />
-    <option name="LAST_COMMIT_MESSAGE" value="(feature) Développement des méthodes non implémentées et testées" />
+    <MESSAGE value="(fix) Champ Sexe dans la classe Personne" />
+    <option name="LAST_COMMIT_MESSAGE" value="(fix) Champ Sexe dans la classe Personne" />
   </component>
 </project>

@@ -53,6 +53,14 @@ public class Developpeur extends Personne {
      * @param newSkills les nouveaux skills à ajouter au développeur
      */
     public void addSkills(ArrayList<Skills> newSkills) {
+        if (this.skills == null) {
+            this.skills = new ArrayList<>();
+        }
         this.skills.addAll(newSkills);
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() + " (Manager : " + this.manager.toString() + ") ";
     }
 }

@@ -28,6 +28,9 @@ public class Manager extends Personne {
      * @param membre le nouveau membre à ajouter au manager
      */
     public void addMembre(Developpeur membre) {
+        if (this.membres == null) {
+            this.membres = new ArrayList<>();
+        }
         this.membres.add(membre);
     }
 }

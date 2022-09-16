@@ -169,4 +169,43 @@ public class PersonneTest {
             fail();
         }
     }
+
+    @Test
+    public void getSexe() {
+        try {
+            // Création de la personne
+            Personne personne = new Personne(
+                    "Dupont",
+                    "Jean",
+                    new SimpleDateFormat("dd-MM-yyyy").parse("09-07-1975"),
+                    178,
+                    Sexe.H
+            );
+
+            // Test de la fonctionnalité
+            assertEquals(Sexe.H, personne.getSexe());
+        } catch (Exception exception) {
+            fail();
+        }
+    }
+
+    @Test
+    public void setSexe() {
+        try {
+            // Création de la personne
+            Personne personne = new Personne(
+                    "Dupont",
+                    "Jean",
+                    new SimpleDateFormat("dd-MM-yyyy").parse("09-07-1975"),
+                    178,
+                    Sexe.H
+            );
+
+            // Test de la fonctionnalité
+            personne.setSexe(Sexe.F);
+            assertEquals(Sexe.F, personne.getSexe());
+        } catch (Exception exception) {
+            fail();
+        }
+    }
 }
