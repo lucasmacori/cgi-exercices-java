@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1eb6ae3-d67b-4c95-91b3-ae0ab49f8d6d" name="Changes" comment="(feature) Création des tests de l'exercice 2 (ArrayList)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/cgi/exercice2/Sexe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/cgi/exercice2/junit/ChatTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/cgi/exercice2/junit/ChienTest.java" afterDir="false" />
+    <list default="true" id="f1eb6ae3-d67b-4c95-91b3-ae0ab49f8d6d" name="Changes" comment="(feature) Création d'un README">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/cgi/exercice2/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cgi/exercice2/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/cgi/exercice2/ArrayListUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cgi/exercice2/ArrayListUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/cgi/exercice2/Chat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cgi/exercice2/Chat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/cgi/exercice2/Chien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cgi/exercice2/Chien.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/cgi/exercice2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cgi/exercice2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/cgi/exercice2/junit/ArrayListUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cgi/exercice2/junit/ArrayListUtilsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +59,7 @@
       <recent name="org.cgi.exercice2.junit" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.org.cgi.exercice2.junit in cgi-exercices-java">
     <configuration name="org.cgi.exercice1.junit in cgi-exercices-java" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cgi-exercices-java" />
       <extension name="coverage">
@@ -82,8 +74,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.cgi.exercice2.junit in cgi-exercices-java" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cgi-exercices-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.cgi.exercice2.junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.cgi.exercice2.junit" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.org.cgi.exercice2.junit in cgi-exercices-java" />
         <item itemvalue="JUnit.org.cgi.exercice1.junit in cgi-exercices-java" />
       </list>
     </recent_temporary>
@@ -98,7 +105,7 @@
       <updated>1663095013597</updated>
       <workItem from="1663095014747" duration="7674000" />
       <workItem from="1663316996820" duration="3873000" />
-      <workItem from="1663328027045" duration="2894000" />
+      <workItem from="1663328027045" duration="4122000" />
     </task>
     <task id="LOCAL-00001" summary="(feature) Classes de base de l'exercice 1&#10;&#10;Développement des classes Personne, Developpeur, Manager et Skills.&#10;La prochaine étape est le développement des tests unitaires afin de développer en mode TDD.">
       <created>1663097402271</created>
@@ -156,7 +163,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663320862693</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="(feature) Développement des méthodes de l'exercice 2">
+      <created>1663330964943</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1663330964943</updated>
+    </task>
+    <task id="LOCAL-00010" summary="(feature) Création d'un README">
+      <created>1663331989275</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1663331989275</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +203,8 @@
     <MESSAGE value="(feature) Création des classes principales" />
     <MESSAGE value="(feature) Création des classes de base de l'exercice 2" />
     <MESSAGE value="(feature) Création des tests de l'exercice 2 (ArrayList)" />
-    <option name="LAST_COMMIT_MESSAGE" value="(feature) Création des tests de l'exercice 2 (ArrayList)" />
+    <MESSAGE value="(feature) Développement des méthodes de l'exercice 2" />
+    <MESSAGE value="(feature) Création d'un README" />
+    <option name="LAST_COMMIT_MESSAGE" value="(feature) Création d'un README" />
   </component>
 </project>
