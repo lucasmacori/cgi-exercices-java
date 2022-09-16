@@ -45,24 +45,21 @@ public class ArrayListUtilsTest {
     }
 
     @Test
+    public void firstIndexOf_listeUnElement() {
+        // Création de la liste
+        ArrayList<Integer> liste = new ArrayList<>();
+        liste.add(5);
+
+        // Test de la fonctionnalité
+        assertEquals(0, ArrayListUtils.firstIndexOf(liste, 5));
+    }
+
+    @Test
     public void firstIndexOf_listeNulle() {
         // Test de la fonctionnalité
         assertThrows(NullPointerException.class, () -> {
             ArrayListUtils.firstIndexOf(null, 14);
         });
-    }
-
-    @Test
-    public void firstIndexOf_valeurNulle() {
-        // Création de la liste
-        ArrayList<Integer> liste = new ArrayList<>();
-        liste.add(4);
-        liste.add(8);
-        liste.add(1);
-        liste.add(0);
-
-        // Test de la fonctionnalité
-        assertEquals(-1, ArrayListUtils.firstIndexOf(liste, null));
     }
 
     @Test
@@ -75,20 +72,30 @@ public class ArrayListUtilsTest {
         liste.add(0);
 
         // Création de la liste triée
-        ArrayList<Integer> listeTriée = new ArrayList<>();
-        liste.add(4);
-        liste.add(8);
-        liste.add(1);
-        liste.add(0);
+        ArrayList<Integer> listeTriee = new ArrayList<>();
+        listeTriee.add(0);
+        listeTriee.add(1);
+        listeTriee.add(4);
+        listeTriee.add(8);
 
         // Test de la fonctionnalité
-        assertEquals(listeTriée, ArrayListUtils.orderByValue(liste));
+        assertEquals(listeTriee, ArrayListUtils.orderByValue(liste));
     }
 
     @Test
     public void orderByValue_listeVide() {
         // Création de la liste
         ArrayList<Integer> liste = new ArrayList<>();
+
+        // Test de la fonctionnalité
+        assertEquals(liste, ArrayListUtils.orderByValue(liste));
+    }
+
+    @Test
+    public void orderByValue_listeUnElement() {
+        // Création de la liste
+        ArrayList<Integer> liste = new ArrayList<>();
+        liste.add(5);
 
         // Test de la fonctionnalité
         assertEquals(liste, ArrayListUtils.orderByValue(liste));

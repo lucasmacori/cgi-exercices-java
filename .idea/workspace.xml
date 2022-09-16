@@ -4,8 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1eb6ae3-d67b-4c95-91b3-ae0ab49f8d6d" name="Changes" comment="(feature) Création des classes principales">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/cgi/exercice2/junit/ArrayListUtilsTest.java" afterDir="false" />
+    <list default="true" id="f1eb6ae3-d67b-4c95-91b3-ae0ab49f8d6d" name="Changes" comment="(feature) Création des tests de l'exercice 2 (ArrayList)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/cgi/exercice2/Sexe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/cgi/exercice2/junit/ChatTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/cgi/exercice2/junit/ChienTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cgi/exercice2/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cgi/exercice2/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cgi/exercice2/ArrayListUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cgi/exercice2/ArrayListUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cgi/exercice2/Chat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cgi/exercice2/Chat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cgi/exercice2/Chien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cgi/exercice2/Chien.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cgi/exercice2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cgi/exercice2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cgi/exercice2/junit/ArrayListUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cgi/exercice2/junit/ArrayListUtilsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -37,6 +47,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "org.cgi.exercice2.Chien",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -44,6 +56,17 @@
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="org.cgi.exercice2.Chien" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.cgi.exercice2.junit" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.cgi.exercice2.junit" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="org.cgi.exercice1.junit in cgi-exercices-java" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cgi-exercices-java" />
@@ -74,7 +97,8 @@
       <option name="presentableId" value="Default" />
       <updated>1663095013597</updated>
       <workItem from="1663095014747" duration="7674000" />
-      <workItem from="1663316996820" duration="3784000" />
+      <workItem from="1663316996820" duration="3873000" />
+      <workItem from="1663328027045" duration="2894000" />
     </task>
     <task id="LOCAL-00001" summary="(feature) Classes de base de l'exercice 1&#10;&#10;Développement des classes Personne, Developpeur, Manager et Skills.&#10;La prochaine étape est le développement des tests unitaires afin de développer en mode TDD.">
       <created>1663097402271</created>
@@ -118,7 +142,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663320650217</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="(feature) Création des classes de base de l'exercice 2">
+      <created>1663320826662</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1663320826662</updated>
+    </task>
+    <task id="LOCAL-00008" summary="(feature) Création des tests de l'exercice 2 (ArrayList)">
+      <created>1663320862693</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1663320862693</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +180,8 @@
     <MESSAGE value="(fix) Champ Sexe dans la classe Personne" />
     <MESSAGE value="(feature) Développement de la classe principale" />
     <MESSAGE value="(feature) Création des classes principales" />
-    <option name="LAST_COMMIT_MESSAGE" value="(feature) Création des classes principales" />
+    <MESSAGE value="(feature) Création des classes de base de l'exercice 2" />
+    <MESSAGE value="(feature) Création des tests de l'exercice 2 (ArrayList)" />
+    <option name="LAST_COMMIT_MESSAGE" value="(feature) Création des tests de l'exercice 2 (ArrayList)" />
   </component>
 </project>
