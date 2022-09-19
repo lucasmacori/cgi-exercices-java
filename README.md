@@ -3,7 +3,7 @@
 <img height="60" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/CGI_logo.svg/2560px-CGI_logo.svg.png"/>
 
 ### Informations
-**Version de Java utilisée :** 1.8<br />
+**Version de Java utilisée :** 18<br />
 **Gestionnaire de paquets :** Maven<br />
 **Dépendances :**
 
